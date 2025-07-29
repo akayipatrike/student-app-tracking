@@ -12,6 +12,11 @@ export default defineConfig({
         }),
         tailwindcss(),
     ],
+    resolve: {
+        alias: {
+            '@': '/resources/js',
+        },
+    },
     server: {
         cors: true,
     },
