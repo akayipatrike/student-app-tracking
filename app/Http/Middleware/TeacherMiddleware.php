@@ -18,7 +18,7 @@ class TeacherMiddleware
     {
          if (Auth::user() && Auth::user()->role != 'teacher') {
             return redirect()->route('admin.dashboard')
-                ->with('error', 'You do not have admin access.');
+                ->with('error', 'You do not have teacher access.');
         }
         return $next($request);
     }
