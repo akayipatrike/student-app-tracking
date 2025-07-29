@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Laravel + Livewire Starter Kit
 
 ## Introduction
@@ -28,3 +29,7 @@ In order to ensure that the Laravel community is welcoming to all, please review
 ## License
 
 The Laravel + Livewire starter kit is open-sourced software licensed under the MIT license.
+=======
+# student-app-tracking
+Application de suivi des etudiants
+>>>>>>> 1afdc001c9a610f0f0b19d9cf6808a341f3f877c
